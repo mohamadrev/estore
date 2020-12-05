@@ -1,0 +1,16 @@
+version: "3"
+services:
+  develop:
+    build: .
+    ports:
+      - "8000:4200"
+    volumes:
+      - "/app/node_modules"
+      - ".:/app"
+
+
+
+# usage
+# docker container ls
+# docker rm -f CONTAINER_NAME_HERE
+# docker-compose up

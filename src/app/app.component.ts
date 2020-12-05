@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 <hr>
   <h5> This is Angular 10-0-8 project <h5>
   <hr>
-  <h6> this is a DevOps project conected with Travisci <h6>
+  <h6> this is a DevOps project conected with Travisci and docker-compose <h6>
   
   `,
   //templateUrl: './app.component.html',
