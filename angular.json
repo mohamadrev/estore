@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "estore"
+    }
+  },
+  "defaultProject": "estore",
+  "cli": {
+    "analytics": "7f764f5c-bb66-4f33-a043-8d8a7bd9fdb4"
+  }
 }
