@@ -7,6 +7,8 @@ import { AppHeaderComponent } from './common/app-header.component';
 import { AppFooterComponent } from './common/app-footer.component';
 import { LoginComponent } from './pages/login.component';
 import { DashboardComponent } from './pages/dashboard.component';
+import { AppBannerComponent } from './common/app-banner.component';
+
 
 
 @NgModule({
@@ -14,7 +16,8 @@ import { DashboardComponent } from './pages/dashboard.component';
     AppComponent,
     AppHeaderComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    AppBannerComponent,
 
   ],
   imports: [
@@ -23,6 +26,6 @@ import { DashboardComponent } from './pages/dashboard.component';
 
   ],
   providers: [],
-  bootstrap: [AppComponent, AppHeaderComponent, AppFooterComponent]
+  bootstrap: [AppComponent, AppHeaderComponent, AppFooterComponent, AppBannerComponent]
 })
 export class AppModule { }
