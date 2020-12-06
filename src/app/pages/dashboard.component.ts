@@ -48,7 +48,6 @@ import { Router } from '@angular/router';
         <button class="btn btn-primary es-btn-size">Carts</button>
 
         </div>
-    
     </div>
 
     <div class="row">
