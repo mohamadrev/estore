@@ -35,21 +35,29 @@ import { Router } from '@angular/router';
      </div>
 
      <div class="col-md-3">
-     <button class="btn btn-primary es-btn-size">Image Sliders</button>
+        <button class="btn btn-primary es-btn-size">Image Sliders</button>
 
-     </div>
+        </div>
 
-     <div class="col-md-3">
-     <button class="btn btn-primary es-btn-size">Zones</button>
+        <div class="col-md-3">
+        <button class="btn btn-primary es-btn-size">Zones</button>
 
-     </div>
+        </div>
 
-     <div class="col-md-3">
-     <button class="btn btn-primary es-btn-size">Carts</button>
+        <div class="col-md-3">
+        <button class="btn btn-primary es-btn-size">Carts</button>
 
-     </div>
+        </div>
+    
+    </div>
 
-  </div>
+    <div class="row">
+    <div class="col-md-3">
+    <button class="btn btn-primary es-btn-size">Notifications</button>
+
+    </div>
+
+    </div>
 
   </div>
 

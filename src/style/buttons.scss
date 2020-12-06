@@ -1,14 +1,15 @@
 .es-btn-size {
-    height: 10rem;
-    width: 20rem;
-    border-radius: 0rem;
-    background-color: white;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  
     font-size: large;
     font-family: sans-serif;
+    height: 11rem;
+    width: 25rem;
+    border-radius: 0rem;
+    background-color: #e9ecef85;
+    margin-top: 2rem;
     border-color: white;
     color: black;
+    margin-left: 1rem;
 }
 
 
@@ -20,4 +21,17 @@
 
 .flt-right{
     float: right;
+}
+
+
+.es-btn-settings{
+    background: none;
+    border: none;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #bfc6ce;
+     border-color: #bfc6ce; 
 }
